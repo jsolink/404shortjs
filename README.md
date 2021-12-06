@@ -1,4 +1,4 @@
-# sk5short-one
+# 404shortjs
 ![](https://img.shields.io/github/v/release/jsolink/404shortjs?style=for-the-badge)
 ![](https://img.shields.io/github/last-commit/jsolink/404shortjs?style=for-the-badge)
 ![](https://img.shields.io/github/license/jsolink/404shortjs?style=for-the-badge)
