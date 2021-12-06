@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jsolink/404shortjs.git"
   },
-  "keywords": [javascript,gh-pages,vanilla-javascript,static-site,shortener,sk5s-project],
+  "keywords": ["javascript","gh-pages","vanilla-javascript","static-site","shortener","sk5s-project"],
   "author": "samko5sam",
   "license": "MIT",
   "bugs": {
