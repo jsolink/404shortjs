@@ -3,8 +3,53 @@
 ![](https://img.shields.io/github/last-commit/jsolink/404shortjs?style=for-the-badge)
 ![](https://img.shields.io/github/license/jsolink/404shortjs?style=for-the-badge)
 ![](https://img.shields.io/github/languages/top/jsolink/404shortjs?style=for-the-badge)
+![](https://img.shields.io/npm/v/@sk5s/404shortjs?style=for-the-badge)
+
+[![](https://nodei.co/npm/@sk5s/404shortjs.png)](https://www.sk5s.cyou/)
 
 快速製作簡易短連結檔案，只要將js加入404頁面，就可以快速完成多個短連結，使用javascript重新導向，不用後端程式，404shortjs make a short link just in a minutes, use javascript to redirect. Just add js to 404 page.
+
+---
+
+Use
+---
+1. add `index.js` or cdn to your html
+2. add config into your `.html` file
+example
+```js
+<script>
+  let fourofour_book_location = 'book.json' // your redirect data path
+  let fourofour_defaultLink = 'https://www.sk5s.cyou/' // redirect to default when error
+  let fourofour_defaultLink_delay = 5 // how many seconds you want to stay on this page not redirect to default link when user go to 404 page.
+</script>
+```
+copy here
+```js
+<script>
+  let fourofour_book_location = ''
+  let fourofour_defaultLink = 'https://www.sk5s.cyou/'
+  let fourofour_defaultLink_delay = 5
+</script>
+```
+3. create `.json` file
+content:
+```js
+{
+  "google": "https://google.com",
+  "sk5s": "https://www.sk5s.cyou/"
+}
+```
+
+CDN
+---
+### jsdelivr
+```
+https://cdn.jsdelivr.net/npm/@sk5s/404shortjs/index.js
+```
+or
+```
+https://cdn.jsdelivr.net/gh/jsolink/404shortjs/index.js
+```
 
 ---
 
