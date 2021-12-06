@@ -1,6 +1,6 @@
 {
   "name": "@sk5s/404shortjs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "快速製作簡易短連結檔案，只要將js加入404頁面，就可以快速完成多個短連結，使用javascript重新導向，不用後端程式，404shortjs make a short link just in a minutes, use javascript to redirect. Just add js to 404 page.",
   "main": "index.js",
   "scripts": {
