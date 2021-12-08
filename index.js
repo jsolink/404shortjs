@@ -9,6 +9,7 @@ if (fourofour_book_location){
 
 function redirect_go(book){
   if (redirect !== null && book[redirect] !== '' && book[redirect] !== undefined) {
+		found_redirect()
     window.location.replace(book[redirect])
   } else {
     if (fourofour_defaultLink) {
