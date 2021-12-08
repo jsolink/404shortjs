@@ -29,6 +29,9 @@ copy here
   let fourofour_book_location = ''
   let fourofour_defaultLink = 'https://www.sk5s.cyou/'
   let fourofour_defaultLink_delay = 5
+  function found_redirect(){
+    alert("found redirect")
+  }
 </script>
 ```
 3. create `.json` file

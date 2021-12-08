@@ -2,6 +2,7 @@
 // let redirect = params.get('r')
 
 let redirect = window.location.pathname.slice(1)
+// let redirect = 'test'
 
 if (fourofour_book_location){
   fetch_data_and_go(fourofour_book_location)
