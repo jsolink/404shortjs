@@ -21,6 +21,12 @@ example
   let fourofour_book_location = 'book.json' // your redirect data path
   let fourofour_defaultLink = 'https://www.sk5s.cyou/' // redirect to default when error
   let fourofour_defaultLink_delay = 5 // how many seconds you want to stay on this page not redirect to default link when user go to 404 page.
+  function found_redirect(){
+    alert("found redirect")
+  }// a function which will be called when 404shortjs found redirect term in book
+  function not_found(){
+    alert("not found")
+  }// a function which will be called when 404shortjs can't find redirect
 </script>
 ```
 copy here
@@ -31,6 +37,9 @@ copy here
   let fourofour_defaultLink_delay = 5
   function found_redirect(){
     alert("found redirect")
+  }
+  function not_found(){
+    alert("not found")
   }
 </script>
 ```

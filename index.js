@@ -13,6 +13,7 @@ function redirect_go(book){
 		found_redirect()
     window.location.replace(book[redirect])
   } else {
+    not_found()
     if (fourofour_defaultLink) {
       if (fourofour_defaultLink_delay){
         setTimeout(() => {
